@@ -12,7 +12,8 @@
 <%
 	ArrayList<Usuario> listaUsuarios = (ArrayList<Usuario>)request.getAttribute("lista");
 %>
-	
+	<h1> Cadastrar novo Usuário</h1>
+	<a href="Cadastro.html">Novo!!</a><br/>
 	<h1>Buscar Todos Usuarios</h1>
 	
 	<table border="2" style="" cellspacing="0" align="center" width=80%>
@@ -22,7 +23,7 @@
 			</tr>
 		</thead>
 		<tbody>
-			<% for(Usuario usuario:listaUsuarios){%>
+			<% for(Usuario usuario:listaUsuarios){ %>
 				<tr>
 					<td><%=usuario.getCodigo() %></td>
 					<td><%=usuario.getNome() %></td>
