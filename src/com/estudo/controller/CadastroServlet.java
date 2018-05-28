@@ -28,7 +28,7 @@ public class CadastroServlet extends HttpServlet {
 		UsuarioDao registra = new UsuarioDao();
 		registra.cadastrar(novoUsuario);
 		
-		response.sendRedirect("http://localhost:8080/websistema/Cadastro.html");
+		response.sendRedirect("Cadastro.html");
 		
 	}
 

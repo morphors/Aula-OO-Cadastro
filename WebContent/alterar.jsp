@@ -11,9 +11,8 @@
 
 <%
 	Usuario usuario = (Usuario)request.getAttribute("usuario");
-
-
 %>
+
 <p>Alterar Cadastro</p>
 	<form action="alterarusuariocontroller.do" method="post">
 		Código: 

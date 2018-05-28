@@ -20,7 +20,7 @@ public class ExcluirUsuarioController extends HttpServlet {
 		UsuarioDao usuariodao = new UsuarioDao();
 		usuariodao.excluir(codigo);
 		
-		response.sendRedirect("http://localhost:8080/websistema/buscarusuariocontroller.do");
+		response.sendRedirect("buscarusuariocontroller.do");
 		
 	}
 
